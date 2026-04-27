@@ -4,7 +4,7 @@ pipeline {
     environment {
         SONAR_TOKEN = credentials('sonarqube-token')
         BUILD_NUMBER = "${env.BUILD_NUMBER}"
-        SONAR_PROJECT_KEY = 'python-sample-app'
+        SONAR_PROJECT_KEY = 'Python-Sample-App'
         SONAR_PROJECT_NAME = 'Python Sample App'
     }
     
