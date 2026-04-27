@@ -1,0 +1,6 @@
+# Intentionally vulnerable dependencies for educational purposes
+requests==2.25.1    # Has known vulnerabilities
+flask==1.1.4        # Older version with security issues
+urllib3==1.25.11    # Vulnerable version
+
+# Do not use these versions in production
